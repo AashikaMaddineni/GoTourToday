@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView"
+            android:layout_width="125dp"
+            android:layout_height="180dp"
+            android:padding="10dp"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:id="@+id/titleView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TitleView"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textColor="#93030F"
+                />
+
+            <TextView
+                android:id="@+id/storyView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="StoryView"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:textColor="#0B0B0B"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book Tickets"
+                app:shapeAppearanceOverlay="@style/roundimageview"/>
+
+                <com.like.LikeButton
+                    app:icon_type="heart"
+                    app:icon_size="25dp"
+                    android:id="@+id/like"
+                    android:layout_width="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="50dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

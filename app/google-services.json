@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "38963601006",
+    "project_id": "gotourtoday",
+    "storage_bucket": "gotourtoday.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38963601006:android:21763986ce97457fe2107f",
+        "android_client_info": {
+          "package_name": "com.aashika.gotourtoday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38963601006-4l2j7tpqjsbdem6vjp1damgd9bh1o0cc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC05xwixlVo2OB8WXj-yq7VJajt4CoCRjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38963601006-4l2j7tpqjsbdem6vjp1damgd9bh1o0cc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
